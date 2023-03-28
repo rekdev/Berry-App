@@ -1,0 +1,38 @@
+.menu {
+  color: black;
+  font-size: 1.1em;
+  font-family: OpenSans-SemiBold;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 12px;
+
+  button {
+    font-family: OpenSans-SemiBold;
+    border: none;
+    background: none;
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .menu-link-item {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .menu-icons {
+      stroke: black;
+      width: 1.4em;
+      height: auto;
+    }
+  }
+
+  .menu-main,
+  .menu-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
