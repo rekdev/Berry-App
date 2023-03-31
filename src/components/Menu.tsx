@@ -1,5 +1,6 @@
 import { TbSettings, TbHome } from "react-icons/tb";
 import { NavLink } from "react-router-dom";
+import Accordion from "./Accordion";
 
 function Menu() {
   return (
@@ -10,7 +11,7 @@ function Menu() {
           <p>Inicio</p>
         </NavLink>
         <button>Categorias</button>
-        <ul className="menu-categories"></ul>
+        <Accordion />
       </div>
       <div className="menu-controls">
         <NavLink to="settings/" className="menu-link-item">

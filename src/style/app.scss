@@ -1,6 +1,7 @@
 @use "fonts";
 @use "./brand/color-scheme";
 @use "imports";
+@use "variables";
 
 :root {
   @include color-scheme.scheme-dark;
@@ -14,4 +15,13 @@
 
 body {
   font-family: OpenSans-Regular, sans-serif;
+  background-color: variables.$base-color;
+}
+
+.light {
+  @include color-scheme.scheme-light;
+}
+
+.dark {
+  @include color-scheme.scheme-dark;
 }

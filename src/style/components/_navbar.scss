@@ -1,0 +1,22 @@
+@use "../variables";
+
+.navbar {
+  width: 100%;
+  height: 52px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: variables.$global-padding;
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+.navbar-brand {
+  height: 30px;
+  width: auto;
+}

@@ -1,0 +1,14 @@
+.button-menu {
+  --button-size: 36px;
+  width: var(--button-size);
+  height: var(--button-size);
+  background: none;
+  border: none;
+  display: grid;
+  place-items: center;
+
+  svg {
+    height: 30px;
+    width: auto;
+  }
+}
