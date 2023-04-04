@@ -1,3 +1,5 @@
+@use "../variables";
+
 .button-menu {
   --button-size: 36px;
   width: var(--button-size);
@@ -10,5 +12,25 @@
   svg {
     height: 30px;
     width: auto;
+  }
+}
+
+.button-add {
+  position: fixed;
+  bottom: 26px;
+  right: 14px;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  background: variables.$accent-color;
+  border: none;
+  box-shadow: 1px 1px 12px variables.$shadow-color;
+  display: grid;
+  place-items: center;
+
+  svg {
+    stroke: variables.$base-color;
+    width: auto;
+    height: 3em;
   }
 }

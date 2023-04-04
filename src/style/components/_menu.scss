@@ -6,6 +6,8 @@
   height: 100%;
   z-index: 1024;
   visibility: hidden;
+  background: rgba(26, 27, 27, 0.596);
+  backdrop-filter: blur(8px);
 }
 
 .menu {
