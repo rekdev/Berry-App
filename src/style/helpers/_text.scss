@@ -1,0 +1,10 @@
+@use "../variables";
+
+.text {
+  color: variables.$text-color;
+  fill: variables.$text-color;
+}
+
+.text-icon {
+  stroke: variables.$text-color;
+}

@@ -4,6 +4,11 @@ $base-color-hover: var(--berry-base-color__hover);
 $base-color-active: var(--berry-base-color__active);
 $base-color-border: var(--berry-base-color__border);
 /**/
-$text-color: black;
+$accent-color: var(--berry-accent-color);
+/**/
+$text-color: var(--berry-text-color);
+$text-color-unactive: var(--berry-text-color__unactive);
+/**/
+$menu-item-active: var(--berry-menu-item__active);
 /**/
 $global-padding: 4px;

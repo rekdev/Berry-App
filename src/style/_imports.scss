@@ -1,3 +1,8 @@
+/*Components*/
+@use "./components/brand";
+@use "./components/accordion";
 @use "./components/button";
 @use "./components/menu";
 @use "./components/navbar";
+/*Helpers*/
+@use "./helpers/text";

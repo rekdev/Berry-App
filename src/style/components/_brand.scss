@@ -1,0 +1,9 @@
+@use "../variables";
+
+.navbar-brand__iso {
+  fill: variables.$accent-color;
+}
+
+.navbar-brand__logo {
+  fill: variables.$text-color;
+}

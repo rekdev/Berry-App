@@ -1,5 +1,15 @@
 @mixin scheme-light {
-  --berry-base-color: white;
+  --berry-base-color: rgb(239, 245, 245);
+  --berry-base-color__hover: ;
+  --berry-base-color__active: ;
+  --berry-base-color__border: rgb(150, 163, 161);
+  /**/
+  --berry-accent-color: rgb(21, 141, 189);
+  /**/
+  --berry-text-color: rgb(14, 14, 15);
+  --berry-text-color__unactive: rgb(130, 130, 134);
+  /**/
+  --berry-menu-item__active: rgb(217, 224, 224);
 }
 
 @mixin scheme-dark() {
