@@ -4,8 +4,8 @@ function Accordion() {
   return (
     <div className="accordion">
       <button className="accordion-button">
-        <p>Categorias</p>
-        <TbChevronDown />
+        <p className="text">Categorias</p>
+        <TbChevronDown className="text-icon" />
       </button>
       <ul className="menu-categories"></ul>
     </div>

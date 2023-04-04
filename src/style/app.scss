@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: variables.$base-color;
+  background-color: variables.$unbase-color;
 }
 
 .light {
@@ -27,5 +27,30 @@ body {
 }
 
 .app-view {
-  padding: 56px 8px;
+  padding: 68px 12px;
+}
+
+/**/
+button {
+  cursor: pointer;
+}
+
+/*General*/
+h1,
+h2,
+h3,
+p {
+  color: variables.$text-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
 }

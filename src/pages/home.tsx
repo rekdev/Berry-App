@@ -1,7 +1,9 @@
+import Task from "../components/Task";
+
 function Home() {
   return (
     <>
-      <h1>Inicio</h1>
+      <Task title="Tarea 1" completed={false} />
     </>
   );
 }

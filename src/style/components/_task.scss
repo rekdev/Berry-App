@@ -1,0 +1,9 @@
+@use "../variables";
+
+.task {
+  background: variables.$base-color;
+  border: 1px solid variables.$base-color-border;
+  padding: 22px 18px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px variables.$shadow-color;
+}

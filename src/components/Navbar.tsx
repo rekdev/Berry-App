@@ -8,7 +8,7 @@ function Navbar() {
       <header className="navbar">
         <div className="navbar-left">
           <button className="button-menu" onClick={toggleMenu}>
-            <TbMenu2 />
+            <TbMenu2 className="text-icon" />
           </button>
           <Brand
             className="navbar-brand"

@@ -9,23 +9,25 @@
 }
 
 .menu {
+  --width: 240px;
   z-index: 2048;
   position: fixed;
-  top: 52px;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: variables.$base-color;
   border-right: 1px solid variables.$base-color-border;
-  width: 200px;
-  height: calc(100% - 52px);
-  transform: translateX(-200px);
+  width: var(--width);
+  height: calc(100% - 54px);
+  transform: translateX(calc(var(--width) * -1));
   transition: transform 0.3s;
-  padding: 8px 6px;
+  /*padding: 8px 6px;*/
 }
 
+/*Menu item*/
 %menu-item {
-  border-radius: 8px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -40,7 +42,7 @@
   height: 1.2em;
   stroke: variables.$text-color;
 }
-
+/**/
 .menu-link-item {
   @extend %menu-item;
 
@@ -52,12 +54,24 @@
 .menu-link-item_active {
   @extend %menu-item;
   background: variables.$menu-item-active;
-}
 
+  svg {
+    @extend %menu-item-icon;
+  }
+}
 /**/
+.menu-main {
+  padding: 12px 12px;
+}
+.menu-controls {
+  padding: 12px 12px;
+  border-top: 1px solid variables.$base-color-border;
+}
+/*States*/
 .show-menu-container {
   visibility: visible;
 }
+/*padding: 8px 6px;*/
 
 .show-menu {
   transform: translateX(0px);

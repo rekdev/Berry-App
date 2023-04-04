@@ -17,7 +17,7 @@ function Menu() {
             to="/"
             className={({ isActive, isPending }) =>
               isPending
-                ? "active"
+                ? "menu-link-item_pending"
                 : isActive
                 ? "menu-link-item_active"
                 : "menu-link-item"

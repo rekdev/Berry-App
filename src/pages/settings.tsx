@@ -1,7 +1,7 @@
 function Settings() {
   return (
     <>
-      <h1>Ajustes</h1>
+      <h1 className="text">Ajustes</h1>
     </>
   );
 }
