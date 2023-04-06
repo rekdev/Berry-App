@@ -1,4 +1,4 @@
-import { TbMenu2 } from "react-icons/tb";
+import { TbMenu2, TbUserCircle } from "react-icons/tb";
 import Brand from "./assets/Brand";
 import toggleMenu from "../helpers/toggle-menu";
 
@@ -16,6 +16,7 @@ function Navbar() {
             classNameLogo="navbar-brand__logo"
           />
         </div>
+        <div className="navbar-right"></div>
       </header>
     </>
   );

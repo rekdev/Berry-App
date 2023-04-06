@@ -33,9 +33,9 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 8px;
+  padding: 8px 10px;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: variables.$text-color;
 }
 
@@ -61,12 +61,14 @@
     @extend %menu-item-icon;
   }
 }
+
+$menu-section-padding: 6px 6px;
 /**/
 .menu-main {
-  padding: 12px 12px;
+  padding: $menu-section-padding;
 }
 .menu-controls {
-  padding: 12px 12px;
+  padding: $menu-section-padding;
   border-top: 1px solid variables.$base-color-border;
 }
 /*States*/
